@@ -1,0 +1,41 @@
+nodejs laravel
+reactjs nextjs
+mongodb
+
+ERD, UseCase, ....
+تحلیل دیتابیس
+user
+post 
+like
+view
+comment
+
+
+UI/UX
+
+nodejs --->
+
+reactjs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

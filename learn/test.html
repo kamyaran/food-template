@@ -1,0 +1,85 @@
+<div id="grandParent">
+    <div id="parent">
+        <div id="h-div">html</div>
+        <div id="c-div">css</div>
+        <div id="j-div">js</div>
+    </div>
+</div>
+
+<span id="w-span">word</span>
+<span id="e-span">excel</span>
+<span id="p-span">powerpoint</span>
+
+<button>login</button>
+<button>signup</button>
+<button>send</button>
+
+<div id="scroll"></div>
+<!-- displays:
+block: div 
+inline: span
+inline-block: دنبال هم, عرض و طول میگیره   input , button, img
+
+flex
+-->
+
+
+<!-- positions
+static
+relative
+absolute
+fixed
+sticky
+ -->
+
+<style>
+    #grandParent{
+       
+        padding: 40px;
+        background-color: pink;
+    }
+    #parent{
+        padding: 20px;
+        background-color: gray;
+        height: 400px;
+    }
+    #h-div,#j-div{
+    
+        width: 200px;
+        /* height: 40px; */
+        background-color: blue;
+        color: white;
+    }
+    #c-div{
+        /* display: inline-block; */
+        width: 200px;
+        height: 40px;
+        background-color: rgb(30, 255, 0);
+        color: white;
+
+        /* margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 30px;
+        margin-right: 40px; */
+
+        /* margin: 10px 40px 20px 30px; */
+
+        /* margin: 40px 20px; */
+        /* margin: 30px; */
+    }
+
+    span{
+        background-color: blueviolet;
+        width: 200px;
+        height: 50px;
+        margin: 30px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+    }
+
+    #scroll{
+        height: 1000px;
+    }
+</style>
